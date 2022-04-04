@@ -1,0 +1,91 @@
+/*Using in all files*/
+*{
+    margin:0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+header{
+    padding-top:50px;
+    padding-bottom:50px;
+    width:100%;
+    text-align: center;
+    background-color: aquamarine;
+    position:fixed;
+    top:0px;
+}
+
+.btn{
+    color:#fff;
+    background-color: rgb(166, 137, 5);
+    display: inline-block;
+    border:solid #000 1px;
+    font-weight: bold;
+    padding:4px 12px;
+    border-radius:10px;
+}
+
+
+/*Using in index.html*/
+.intro{
+    margin-top: 150px;
+    text-align: center;
+    font: size 15px;
+}
+
+.intro p{
+    padding:10px;
+}
+
+.intro h3{
+    padding-bottom:10px;
+}
+
+.number-input{
+    margin:0 auto;
+    width:50%;
+    background-color: bisque;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align: center;
+}
+
+/*Using in FizzBuzz.php*/
+.program{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size:24px;
+    text-align: center;
+}
+
+a{
+    float:left;
+}
+
+.error-msg{
+    color:red;
+}
+
+footer{
+    width: 100%;
+    padding-bottom:12px;
+    position:fixed;
+    bottom:0px;
+}
+
+/*responsive design*/
+@media(max-width:1000px){
+
+}
+
+@media(max-width:670px){
+
+}
